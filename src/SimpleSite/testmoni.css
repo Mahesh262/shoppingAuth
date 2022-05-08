@@ -1,0 +1,96 @@
+ *{
+     box-sizing: border-box;
+     /* border: 2px solid green; */
+ }
+ 
+ #tesimonial{
+     /* width: 100%;
+     height: 100%; */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+
+    color: azure;
+}
+#tesimonial h1{
+    color: darkred;
+}
+#tesimonial h1::after{
+    content: '';
+    display: flex;
+    position: static;
+    margin-top: 5px;
+    width:200px;
+    height:2px;
+    background: green;
+}
+
+#testmonial-diamond,#testmonial-NewsLettr{
+    display: flex;
+    flex-direction: column;
+      color: rgb(55, 164, 197);
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+
+}
+#testmonial-NewsLettr h6,
+#testmonial-diamond h6{
+    color: rgb(240, 40, 40);
+}
+
+#testmonial-diamond h6::after{
+    content:'';
+    display: flex;
+    position: static;
+
+    flex-direction: column;
+
+    
+    justify-content: center;
+    margin-top: 5px;
+    width:100px;
+    height:1px;
+    background: green;
+    transition: all 1s;
+    animation: reverse;
+}
+
+ #testmonial-diamond:hover{
+    transition: all 1s;
+   transform:translateY(-20px)
+
+
+} 
+#testmonial-NewsLettr h6::after{
+    content:'';
+    display: flex;
+    position: static;
+    justify-content: center;
+    margin-top: 5px;
+    width:100px;
+    height:1px;
+    background: green;
+    transition: all 1s;
+    animation: reverse;
+}
+
+#testmonial-NewsLettr:hover{
+    transition: all 1s;
+    transform:translateY(-20px)
+    
+}
+#service video{
+    position: absolute;
+    width: fit-content;
+    height: 75vh;
+    object-fit: cover;
+    z-index: -1;
+}
+ 
