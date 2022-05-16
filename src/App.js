@@ -1,9 +1,15 @@
 import React from "react";
-import AllCenter from "./SimpleSite/ALLcenter";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Profile from "./Profile/Profile";
+
 const App = () => {
   return (
     <>
-      <AllCenter />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Profile />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };

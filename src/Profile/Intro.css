@@ -1,0 +1,65 @@
+.intro{
+    color:rgb(177, 36, 220)
+}
+.Intro-head :nth-child(1){
+    color:rgba(245, 245, 245, 0.864);
+    font-size: 60px;
+    text-align:  start;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+      
+}
+.Intro-head :nth-child(2){
+     color: rgba(245, 241, 241, 0.371);
+     font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+
+}
+.Intro-head :nth-child(3){
+    color: rgba(245, 241, 241, 0.445);
+     font-size: 20px;
+     padding-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+.Hero-buton{
+    color: antiquewhite;
+    outline: none;
+    padding: 15px;
+    border:2px solid violet;
+    background-color: transparent;
+    border-radius: 100px;
+    transition: 0.5s all;
+}
+.Hero-buton:hover{
+    border:2px solid rgb(237, 22, 237)
+}
+.Intro-S{
+    padding-top: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     /* border:2px solid green; */
+     
+}
+.Intro-Self{
+    color:rgba(245, 245, 245, 0.864);
+    text-align:  start;
+     font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.Intro-Tech{
+     display: flex;
+    color:rgba(245, 245, 245, 0.864);
+    text-align:  start;
+     font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+.Social-Icons{
+    color: antiquewhite;
+}
+
+
