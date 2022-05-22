@@ -7,7 +7,7 @@ import App from "./App";
 
 import reportWebVitals from "./reportWebVitals";
 // import { devToolsEnhancer } from "@redux-devtools/extension";
-// import cartReducers from "./ShoppingCart/Reducers";
+// import cartReducers from "./Carts/CardReducers";
 // import { BrowserRouter } from "react-router-dom";
 // const store = createStore(cartReducers, devToolsEnhancer());
 ReactDOM.render(
