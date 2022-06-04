@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
+import LoginForm from "./Ecart/LoginForm";
 import { auth } from "./Ecart/Firebase";
 import Home from "./Ecart/Home";
-import LoginForm from "./Ecart/LoginForm";
 const App = () => {
   const [presentUser, setPresentuser] = useState(null);
   useEffect(() => {
@@ -16,12 +16,8 @@ const App = () => {
       }
     });
   }, []);
-
   return (
-    <>
-      {presentUser ? <Home presentUser={presentUser} /> : <LoginForm />}
-      {/* <LoginForm /> */}
-    </>
+    <>{presentUser ? <Home presentUser={presentUser} /> : <LoginForm />}</>
   );
 };
 

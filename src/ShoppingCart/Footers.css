@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+     /* border: 2px solid green; */
+}
+.footers{
+    padding-top:10px;
+    background-color: antiquewhite;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    padding: 5px;
+     
+    border: 0.3px solid  rgba(218, 169, 104, 0.805);
+}
+.terms{
+    text-size-adjust:12px;
+    text-align: center;
+    list-style: none;
+}
